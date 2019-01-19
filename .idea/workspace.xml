@@ -3,43 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1f7aaac2-4d74-45ae-ac8d-bc285d025874" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/APIClient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/AuthGuard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/AuthenticationService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/AutofocusDirective.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/DataTablePage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/FormUtils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/HttpErrorInterceptor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/JwtInterceptor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/Numbers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/PageRequest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/Pageable.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_lib/RequestResult.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/shared/material/material.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/shared/shared.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theming/default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifests/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifests/service.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../streamnvr-platform-job-stats-mysql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="725">
-              <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding>
                 <element signature="e#0#75#0" expanded="true" />
                 <element signature="e#179#201#0" expanded="true" />
@@ -136,16 +104,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/home/home.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="600">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
                 <element signature="e#174#203#0" expanded="true" />
-                <element signature="e#331#642#0" expanded="true" />
-                <element signature="e#409#634#0" expanded="true" />
-                <element signature="e#424#547#0" expanded="true" />
                 <element signature="e#514#623#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -172,11 +146,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifests/service.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/settings/settings.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            <state relative-caret-position="792">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -197,7 +180,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/settings/settings.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
                 <element signature="e#209#231#0" expanded="true" />
@@ -257,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/app/home/home.module.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/app/settings/settings.component.html" />
+        <option value="$PROJECT_DIR$/Makefile" />
       </list>
     </option>
   </component>
@@ -283,6 +267,11 @@
             <path>
               <item name="ngxux-starter" type="b2602c69:ProjectViewProjectNode" />
               <item name="ngxux-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ngxux-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ngxux-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="manifests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ngxux-starter" type="b2602c69:ProjectViewProjectNode" />
@@ -350,6 +339,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/app/_lib" />
       <recent name="$PROJECT_DIR$/src/app" />
     </key>
@@ -406,12 +396,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547938952883</updated>
-      <workItem from="1547938954414" duration="2721000" />
+      <workItem from="1547938954414" duration="2982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2721000" />
+    <option name="totallyTimeSpent" value="2982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1236" y="131" width="2227" height="1980" extended-state="0" />
@@ -427,11 +417,11 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32993016" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32993016" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32993016" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
-          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding>
             <element signature="e#0#75#0" expanded="true" />
             <element signature="e#179#201#0" expanded="true" />
@@ -599,27 +589,12 @@
     <entry file="file://$PROJECT_DIR$/src/app/settings/settings.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
             <element signature="e#209#231#0" expanded="true" />
             <element signature="e#449#480#0" expanded="true" />
             <element signature="e#472#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#174#203#0" expanded="true" />
-            <element signature="e#331#642#0" expanded="true" />
-            <element signature="e#409#634#0" expanded="true" />
-            <element signature="e#424#547#0" expanded="true" />
-            <element signature="e#514#623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -633,8 +608,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/settings/settings.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        <state relative-caret-position="792">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#174#203#0" expanded="true" />
+            <element signature="e#514#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifests/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
