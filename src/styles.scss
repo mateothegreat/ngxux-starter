@@ -1,1 +1,82 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';
+@import '~@swimlane/ngx-datatable/release/index.css';
+@import '~@swimlane/ngx-datatable/release/themes/material.css';
+@import 'default';
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    
+}
+
+* {
+    
+    outline: none;
+    
+}
+
+.mat-dialog-container {
+    
+    padding: 0 !important;
+    
+}
+
+mat-drawer {
+    
+    width: 55px !important;
+    
+}
+
+mat-drawer-content {
+    
+    margin-left: 55px !important;
+    
+}
+
+/**
+ *
+ * Vertical Toolbar (either on the left or right)
+ *
+ */
+.ngxux-admin-vertical-toolbar {
+    
+    background: #fff;
+    
+    .item {
+        
+        &:hover {
+            
+            background: #d5e0ff;
+            
+        }
+    }
+    
+    .top .icon {
+        
+        color: #888;
+        
+    }
+    
+    .middle .icon {
+        
+        color: #476be6;
+        
+        &:hover {
+            
+            color: #000;
+            
+        }
+        
+    }
+    
+    .bottom .icon {
+        
+        color: red;
+        
+    }
+    
+}

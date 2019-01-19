@@ -1,0 +1,24 @@
+<ngxux-mat-header-nav title="Home"
+
+                      (buttonClick)="onHeaderNavButtonClick($event)"
+                      [buttons]="[
+
+
+                                    ]"
+
+                      [tabs]="[
+
+                                    {
+
+                                        label: 'Dashboard',
+                                        path: '/home/dashboard'
+
+                                    }
+
+                                ]"></ngxux-mat-header-nav>
+
+<div class="table mat-elevation-z5">
+
+    <router-outlet></router-outlet>
+
+</div>

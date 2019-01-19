@@ -1,0 +1,33 @@
+<ngxux-mat-header-nav title="Manage Users"
+                      (buttonClick)="onHeaderNavButtonClick($event)"
+                      [buttons]="[
+
+                                        {
+
+                                            label: 'Add User'
+
+                                        }
+
+                                    ]"
+
+                      [tabs]="[
+
+                                    {
+
+                                        label: 'Users',
+                                        path: '/settings/users/users'
+
+                                    }, {
+
+                                        label: 'Admninistrators',
+                                        path: '/settings/users/admins'
+
+                                    }
+
+                                ]"></ngxux-mat-header-nav>
+
+<div class="table mat-elevation-z5">
+
+    <router-outlet></router-outlet>
+
+</div>

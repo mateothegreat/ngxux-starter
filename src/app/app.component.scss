@@ -1,0 +1,73 @@
+:host {
+    
+    .wrapper {
+        
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        mat-drawer-container {
+            
+            display: flex;
+            height: 100%;
+            
+            mat-drawer {
+                
+                width: 80px;
+                
+                background: #fff;
+                
+            }
+            
+            mat-drawer-content {
+                
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                
+                background: #d7d7d7;
+                
+                .content {
+                    
+                    flex: 1;
+                    
+                }
+                
+            }
+            
+        }
+        
+        .notices {
+            
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            
+        }
+        
+        .messageButton {
+            
+            position: absolute;
+            bottom: 0;
+            right: 15px;
+            z-index: 9999;
+            cursor: pointer;
+            background: #666;
+            padding: 5px 5px 0;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            
+            &:hover {
+                
+                background: #999;
+                
+            }
+            
+        }
+        
+    }
+    
+}
