@@ -30,33 +30,29 @@ export class AuthenticationService extends APIClient<any> {
 
     public static isLoggedIn(): boolean {
 
-        return true;
+        const helper = new JwtHelperService();
 
-        // const helper = new JwtHelperService();
-        //
-        // const token: string = localStorage.getItem('token');
-        //
-        // if (token) {
-        //
-        //     return !helper.isTokenExpired(token);
-        //
-        // }
+        const token: string = localStorage.getItem('token');
+
+        if (token) {
+
+            return !helper.isTokenExpired(token);
+
+        }
 
     }
 
     public isLoggedIn(): boolean {
 
-        return true;
-        
-        // const helper = new JwtHelperService();
-        //
-        // const token: string = localStorage.getItem('token');
-        //
-        // if (token) {
-        //
-        //     return !helper.isTokenExpired(token);
-        //
-        // }
+        const helper = new JwtHelperService();
+
+        const token: string = localStorage.getItem('token');
+
+        if (token) {
+
+            return !helper.isTokenExpired(token);
+
+        }
 
     }
 

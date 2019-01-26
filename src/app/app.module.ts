@@ -8,11 +8,11 @@ import { NgProgressHttpModule }                from '@ngx-progressbar/http';
 import { ToastrModule }                        from 'ngx-toastr';
 import { HttpErrorInterceptor }                from './_lib/HttpErrorInterceptor';
 import { JwtInterceptor }                      from './_lib/JwtInterceptor';
-import { AppComponent }   from './app.component';
-import { HomeModule }     from './home/home.module';
-import { LoginModule }    from './login/login.module';
-import { SettingsModule } from './settings/settings.module';
-import { SharedModule }   from './shared/shared.module';
+import { AppComponent }                        from './app.component';
+import { HomeModule }                          from './home/home.module';
+import { LoginModule }                         from './login/login.module';
+import { SettingsModule }                      from './settings/settings.module';
+import { SharedModule }                        from './shared/shared.module';
 
 @NgModule({
     declarations: [
